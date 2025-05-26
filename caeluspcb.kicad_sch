@@ -3704,7 +3704,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 28.702 117.856 0)
+		(at 29.718 117.602 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3714,7 +3714,7 @@
 	)
 	(text "Igniter\n"
 		(exclude_from_sim no)
-		(at 201.676 116.586 0)
+		(at 197.866 117.856 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3734,7 +3734,7 @@
 	)
 	(text "Lanchbox Ports"
 		(exclude_from_sim no)
-		(at 114.046 14.732 0)
+		(at 114.046 16.002 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3747,12 +3747,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0249b16e-7f00-4b18-b430-9c3052cc0dc5")
-	)
-	(junction
-		(at 189.23 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b8ad694-1301-4ed3-8890-b6718919f329")
 	)
 	(junction
 		(at 62.23 139.7)
@@ -3819,6 +3813,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b1806bd-df7c-4fec-b170-528c0ab53da8")
+	)
+	(junction
+		(at 186.69 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60015eb3-5595-4338-a320-dec43d53ea52")
 	)
 	(junction
 		(at 57.15 165.1)
@@ -3893,7 +3893,7 @@
 		(uuid "ea195332-46c0-40e2-9d01-cf49ed99ac65")
 	)
 	(junction
-		(at 198.12 128.27)
+		(at 194.31 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea48d12e-6777-4ac8-ab3f-542d299e14ac")
@@ -3925,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "0a96f27f-bd48-4d3b-9b43-6987eb4da065")
-	)
-	(wire
-		(pts
-			(xy 189.23 135.89) (xy 193.04 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c55f241-211e-4b2f-b3c3-f7771879ffb7")
 	)
 	(wire
 		(pts
@@ -4168,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 128.27) (xy 189.23 135.89)
+			(xy 186.69 129.54) (xy 186.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4245,16 +4235,6 @@
 			(type default)
 		)
 		(uuid "a5c651b9-a1c8-4a87-beb8-89efd47eba9c")
-	)
-	(wire
-		(pts
-			(xy 205.74 135.89) (xy 215.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68431fc-a5bd-4715-9554-6c92adcd6ab2")
 	)
 	(wire
 		(pts
@@ -4378,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 137.16) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf91d353-a98c-45e0-be67-963871df2aaf")
+	)
+	(wire
+		(pts
 			(xy 52.07 165.1) (xy 57.15 165.1)
 		)
 		(stroke
@@ -4435,16 +4425,6 @@
 			(type default)
 		)
 		(uuid "ea1794aa-698c-40ff-903a-5f9053572ce4")
-	)
-	(wire
-		(pts
-			(xy 189.23 128.27) (xy 190.5 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaafb899-2d8d-4a58-a5ba-1d8630e86c1f")
 	)
 	(wire
 		(pts
@@ -5370,7 +5350,7 @@
 	)
 	(global_label "IGN"
 		(shape input)
-		(at 205.74 128.27 0)
+		(at 201.93 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5360,7 @@
 		)
 		(uuid "c755b32d-d0b9-494a-aef1-e313130f5615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9305 128.27 0)
+			(at 208.1205 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 141.605 60.96 90)
 			(effects
 				(font
@@ -5898,7 +5878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Launchbox:SPDT_Slide_Switch"
 			(at 26.67 142.24 0)
 			(effects
 				(font
@@ -5971,7 +5951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 63.246 143.764 90)
 			(effects
 				(font
@@ -6015,7 +5995,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 128.27 90)
+		(at 190.5 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6024,7 +6004,7 @@
 		(fields_autoplaced yes)
 		(uuid "1affdb1e-b7ad-4253-8ada-328aeee74131")
 		(property "Reference" "R13"
-			(at 194.31 121.92 90)
+			(at 190.5 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,15 +6012,15 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 194.31 124.46 90)
+			(at 190.5 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.564 127.254 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 190.754 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 128.27 0)
+			(at 190.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6038,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 128.27 0)
+			(at 190.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "Launchbox:MODULE_ESP32_DEVKIT_V1"
 			(at 142.24 158.75 0)
 			(effects
 				(font
@@ -6380,7 +6360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 64.135 44.45 90)
 			(effects
 				(font
@@ -6465,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 64.135 74.93 90)
 			(effects
 				(font
@@ -6593,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 201.93 128.27 90)
+		(at 198.12 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6602,7 +6582,7 @@
 		(fields_autoplaced yes)
 		(uuid "30ac9927-a978-4fec-a7ac-25512fc01fc7")
 		(property "Reference" "R12"
-			(at 201.93 121.92 90)
+			(at 198.12 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,15 +6590,15 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 201.93 124.46 90)
+			(at 198.12 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 202.184 127.254 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 198.374 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 128.27 0)
+			(at 198.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6616,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 201.93 128.27 0)
+			(at 198.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +6734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.166 128.524 90)
 			(effects
 				(font
@@ -6824,7 +6804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 100.965 59.69 90)
 			(effects
 				(font
@@ -6910,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 104.14 203.2 0)
 			(effects
 				(font
@@ -7008,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 119.634 80.264 90)
 			(effects
 				(font
@@ -7078,7 +7058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 110.236 138.684 90)
 			(effects
 				(font
@@ -7214,7 +7194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.166 161.544 90)
 			(effects
 				(font
@@ -7284,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.086 136.144 90)
 			(effects
 				(font
@@ -7354,7 +7334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 110.236 146.304 90)
 			(effects
 				(font
@@ -7464,7 +7444,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 198.12 133.35 270)
+		(at 194.31 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7473,7 +7453,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b33f678-6a4f-4f6c-a8f1-f9b6edc12954")
 		(property "Reference" "Q1"
-			(at 198.12 139.7 90)
+			(at 194.31 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7461,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 198.12 142.24 90)
+			(at 194.31 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7469,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 196.215 138.43 0)
+			(at 192.405 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 194.31 138.43 0)
+			(at 190.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7490,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 198.12 133.35 0)
+			(at 194.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 24.765 156.21 0)
 			(effects
 				(font
@@ -7743,7 +7723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 135.89 270)
+		(at 186.69 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7752,7 +7732,7 @@
 		(fields_autoplaced yes)
 		(uuid "699fd2a4-8ff5-4a02-b875-0ea761d85eac")
 		(property "Reference" "#PWR023"
-			(at 182.88 135.89 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 132.08 90)
+			(at 185.42 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 135.89 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 135.89 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 135.89 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +7812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-18_W7.62mm_SideBrazed"
 			(at 82.55 25.4 0)
 			(effects
 				(font
@@ -7956,7 +7936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 82.296 161.544 90)
 			(effects
 				(font
@@ -8090,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 152.146 27.686 90)
 			(effects
 				(font
@@ -8160,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 77.216 169.164 90)
 			(effects
 				(font
@@ -8446,7 +8426,7 @@
 	)
 	(symbol
 		(lib_id "LaunchboxPCBLib:XT60-M")
-		(at 203.2 140.97 270)
+		(at 199.39 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8455,7 +8435,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c004ea2-857f-4f3d-94e0-968a29688dcb")
 		(property "Reference" "J5"
-			(at 209.55 143.5099 90)
+			(at 205.74 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8444,7 @@
 			)
 		)
 		(property "Value" "XT60-M"
-			(at 209.55 146.0499 90)
+			(at 205.74 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,8 +8452,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 201.93 140.97 0)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8481,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 203.2 134.62 0)
+			(at 199.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8491,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 203.2 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8501,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 201.93 140.97 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8511,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 201.93 140.97 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 77.47 201.93 0)
 			(effects
 				(font
@@ -8745,7 +8725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 66.294 171.704 90)
 			(effects
 				(font
@@ -8813,7 +8793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-18_W7.62mm_SideBrazed"
 			(at 123.19 25.4 0)
 			(effects
 				(font
@@ -8937,7 +8917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 100.076 138.684 90)
 			(effects
 				(font
@@ -9007,7 +8987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 105.156 131.064 90)
 			(effects
 				(font
@@ -9340,7 +9320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.566 145.034 90)
 			(effects
 				(font
@@ -9476,7 +9456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 73.406 137.414 90)
 			(effects
 				(font
@@ -9544,7 +9524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 105.41 233.68 0)
 			(effects
 				(font
@@ -9642,7 +9622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 134.874 104.394 90)
 			(effects
 				(font
@@ -9777,7 +9757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 111.506 27.686 90)
 			(effects
 				(font
@@ -9978,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 162.814 80.264 90)
 			(effects
 				(font
@@ -10112,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 57.15 200.66 0)
 			(effects
 				(font
@@ -10276,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 57.15 233.68 0)
 			(effects
 				(font
@@ -10376,7 +10356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.086 169.164 90)
 			(effects
 				(font
@@ -10510,7 +10490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-18_W7.62mm_SideBrazed"
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -10764,7 +10744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 81.28 233.68 0)
 			(effects
 				(font
@@ -10864,7 +10844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.566 137.414 90)
 			(effects
 				(font
@@ -10932,7 +10912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 94.234 104.394 90)
 			(effects
 				(font
@@ -11002,7 +10982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 78.486 129.794 90)
 			(effects
 				(font
@@ -11137,7 +11117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-18_W7.62mm_SideBrazed"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -11325,7 +11305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 90.424 171.704 90)
 			(effects
 				(font
@@ -11395,7 +11375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 63.246 136.144 90)
 			(effects
 				(font
@@ -11465,7 +11445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 106.426 161.544 90)
 			(effects
 				(font
@@ -11535,7 +11515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 101.346 169.164 90)
 			(effects
 				(font
@@ -11669,7 +11649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 114.554 171.704 90)
 			(effects
 				(font
@@ -11713,7 +11693,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 215.9 135.89 270)
+		(at 201.93 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11722,7 +11702,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdb103f9-105b-4a8a-83d1-878c464c1bce")
 		(property "Reference" "#PWR027"
-			(at 212.09 135.89 0)
+			(at 198.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11711,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 219.71 135.8899 90)
+			(at 205.74 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +11720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 135.89 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 135.89 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +11738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 215.9 135.89 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
