@@ -1,4 +1,4 @@
-25601070132624808
+25628728268279168
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2666,6 +2666,13 @@ speaker CUI
 0
 2
 2
+COM-13909
+MOD_COM-13909
+
+
+0
+16
+16
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -59156,6 +59163,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FG24X7R1A106KRT00
+CAPRB500W50L450T300H550
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -60213,6 +60227,20 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GRM155R61A104KA01J
+CAPC1005X55N
+
+
+0
+2
+2
+GTFP08422BEU
+AMPHENOL_GTFP08422BEU
+
+
+0
+12
+12
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -67864,27 +67892,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Launchbox
-KeySwitchKO106
-
-
-0
-2
-2
-Launchbox
-MODULE_ESP32_DEVKIT_V1
-
-
-0
-30
-30
-Launchbox
-SPDT_Slide_Switch
-
-
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -90208,6 +90215,13 @@ Potentiometer vertical vishay
 0
 3
 3
+R-RJ45R08P-C000
+CONN12_R-RJ45_CKM
+
+R-RJ45R08P-C000 
+0
+12
+12
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -91475,6 +91489,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RNF18FTD10K0
+STA_RNF18_STP
+
+
+0
+2
+2
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -102661,3 +102682,31 @@ Varistor VF
 0
 2
 2
+XT60-M
+AMASS_XT60-M
+
+
+0
+2
+2
+XT60-M-2
+AMASS_XT60-M
+
+
+0
+2
+2
+footprints
+CONN12_R-RJ45_CKM
+
+R-RJ45R08P-C000 
+0
+12
+12
+footprints1
+CONN12_R-RJ45_CKM
+
+R-RJ45R08P-C000 
+0
+12
+12
